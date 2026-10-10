@@ -1,3 +1,16 @@
+/**
+ * ============================================================================
+ * TalentHire / Inayon - Central Backend Server API Gateway
+ * ============================================================================
+ * 
+ * Core responsibilities:
+ * - Express.js REST API router mounting for all platform sub-modules
+ * - Real-time event broadcasting using Socket.IO (interviews, notifications)
+ * - Dynamic MongoDB Atlas database persistence and lifecycle management
+ * - Multi-tenant security, CORS handling, and Role-Based Access Control (RBAC)
+ * - Dual runtime compatibility: Standalone Node.js server and Vercel Serverless
+ */
+
 import express from 'express';
 import http from 'http';
 import cors from 'cors';
@@ -15,6 +28,7 @@ import {
   AuditLogModel,
 } from './db/models';
 
+// Domain-specific feature routers
 import { authRouter } from './routes/auth';
 import { companiesRouter } from './routes/companies';
 import { candidatesRouter } from './routes/candidates';
@@ -32,8 +46,10 @@ import { stackPassesRouter } from './routes/stackPasses';
 import { evaluatorOnboardingRouter } from './routes/evaluatorOnboarding';
 import { scratchCardsRouter } from './routes/scratchCards';
 
+// Load environment variables from .env
 dotenv.config();
 
+// Initialize Express application and base HTTP server
 const app = express();
 const server = http.createServer(app);
 

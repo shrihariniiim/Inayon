@@ -1,10 +1,21 @@
+/**
+ * ============================================================================
+ * Talent Web Application - Root Application & Routing Configuration
+ * ============================================================================
+ * 
+ * Provides routing for three distinct user journeys:
+ * 1. Public Visitor Portal: Marketing pages, public job listings, and authentication
+ * 2. Candidate (Talent) Portal: Profile building, stack-pass verification, and applications
+ * 3. Evaluator Portal: Assignment queues, live technical interview rooms, and scoring
+ */
+
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { PublicLayout } from './layouts/PublicLayout';
 import { TalentLayout } from './layouts/TalentLayout';
 import { EvaluatorLayout } from './layouts/EvaluatorLayout';
 
-// Public Pages
+// Public Marketing & Auth Pages
 import { Home } from './pages/public/Home';
 import { Jobs } from './pages/public/Jobs';
 import { JobDetails } from './pages/public/JobDetails';

@@ -1,8 +1,20 @@
+/**
+ * ============================================================================
+ * Company Web Application - Corporate Portal & Hiring Management
+ * ============================================================================
+ * 
+ * Provides end-to-end recruitment pipelines for employer organizations:
+ * - Public onboarding, corporate authentication, and account verification
+ * - Requisition & job opening management
+ * - Candidate matching engine, shortlists, and technical evaluation reports
+ * - Interview coordination, offer generation, placements, and invoicing
+ */
+
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { CompanyLayout } from './layouts/CompanyLayout';
 
-// Public Experience
+// Public Experience & Auth
 import { CompanyWelcome } from './pages/public/CompanyWelcome';
 import { CompanyLogin } from './pages/CompanyLogin';
 import { CompanyRegister } from './pages/auth/CompanyRegister';

@@ -1,3 +1,15 @@
+/**
+ * ============================================================================
+ * Admin Web Application - Superadmin & Operations Command Center
+ * ============================================================================
+ * 
+ * Provides platform-wide management tools for internal operators and superadmins:
+ * - Enterprise tenants & candidate directory oversight
+ * - Evaluator QA calibration & technical interview quality audits
+ * - AI matching engine diagnostics, shortlist builders, and placement tracking
+ * - Finance, escrow payouts, fraud detection, and immutable audit logs
+ */
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AdminLayout } from './layouts/AdminLayout';
