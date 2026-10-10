@@ -132,7 +132,8 @@ app.get('/', (_req, res) => {
     status: 'ONLINE',
     service: 'TalentHire Central Server API',
     version: '1.0.0',
-    documentation: 'https://github.com/Thamilarasan-gp/TalentHire',
+    documentation: 'https://github.com/shrihariniiim/Inayon',
+    deployment: 'https://talenthireserver.vercel.app',
     timestamp: new Date().toISOString(),
   });
 });

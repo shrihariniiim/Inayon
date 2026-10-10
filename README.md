@@ -2,6 +2,12 @@
 
 An end-to-end modern technical recruitment, candidate vetting, and hiring platform.
 
+[![Deployment Status](https://img.shields.io/badge/Deployment-Live-brightgreen)](https://talenthireserver.vercel.app/)
+[![Backend API](https://img.shields.io/badge/API-talenthireserver.vercel.app-blue)](https://talenthireserver.vercel.app/)
+[![License](https://img.shields.io/badge/License-Proprietary-orange)](#-license)
+
+> 🌐 **Live Deployed API & Backend**: [https://talenthireserver.vercel.app/](https://talenthireserver.vercel.app/)
+
 ---
 
 ## 🌟 Overview

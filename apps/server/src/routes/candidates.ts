@@ -1,3 +1,12 @@
+/**
+ * ============================================================================
+ * Candidates API Router
+ * ============================================================================
+ * 
+ * Endpoints for candidate profiles, applications tracking, and verified
+ * credentials/evaluations lookup.
+ */
+
 import { Router } from 'express';
 import {
   CandidateModel,
